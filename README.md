@@ -23,10 +23,11 @@ Obj_SimChange.m: returns the new objective function when only S changes
 ### Cite
 If you find this code useful, please cite our paper:
 ```
-@article{zhang2017timers,
+@inproceedings{zhang2017timers,
   title={TIMERS: Error-Bounded SVD Restart on Dynamic Networks},
   author={Zhang, Ziwei and Cui, Peng and Pei, Jian and Wang, Xiao and Zhu, Wenwu},
-  journal={Proceedings of the 32nd AAAI Conference on Artificial Intelligence},
-  year={2017}
+  booktitle={Proceedings of the 32nd AAAI Conference on Artificial Intelligence},
+  year={2017},
+  organization={AAAI}
 }
 ```
