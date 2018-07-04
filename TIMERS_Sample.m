@@ -55,7 +55,10 @@ for i = 1:time_slice
     S_add = A_add;            % Change to other functions for other similarities
     S_perturb = S_perturb + S_add;
     if (Update)
-        %[U{i+1},S{i+1},V{i+1}] = Some Updating Function Here;
+       % Some Updating Function Here
+       [U{i+1},S{i+1},V{i+1}] = TRIP(U{i},S{i},V{i},S_add);
+       % We use TRIP as an example, while other variants are permitted (as discussed in the paper)
+       % Note that TRIP doesn't ensure smaller loss value
         U_cur = U{i+1} * sqrt(S{i+1});
         V_cur = V{i+1} * sqrt(S{i+1});
         Loss_store(i + 1) = Obj(S_cum + S_add, U_cur, V_cur);
