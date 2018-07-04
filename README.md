@@ -1,5 +1,5 @@
 # TIMERS
-This is a sample implementation of "[TIMERS: Error-Bounded SVD Restart on Dynamic Networks](http://media.cs.tsinghua.edu.cn/~multimedia/cuipeng/papers/TIMERS.pdf)"(AAAI 2018).
+This is a sample implementation of "[TIMERS: Error-Bounded SVD Restart on Dynamic Networks](http://cuip.thumedialab.com/papers/TIMERS.pdf)"(AAAI 2018).
 
 ### Requirements
 ```
